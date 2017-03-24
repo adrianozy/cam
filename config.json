@@ -1,0 +1,36 @@
+{
+  "cameras": [
+    {
+      "dev": "/dev/video0",
+      "comment": "Camera 1 - Dining Room A"
+    },
+    {
+      "dev": "/dev/video1",
+      "comment": "Camera 2 - Dining Room B"
+    }
+  ],
+  "relays": [
+    {
+      "dev": "/sys/class/gpio/gpio17/value",
+      "comment": "Light 1 - Dining Room 30",
+      "status": "on"
+    },
+    {
+      "dev": "/sys/class/gpio/gpio18/value",
+      "comment": "Light 1 - Dining Room 70",
+      "status": "off"
+    }
+  ],
+  "bools": [
+    {
+      "dev": "/sys/class/gpio/gpio19/value",
+      "comment": "Window 1 - Dining Room",
+      "status": "open"
+    },
+    {
+      "dev": "/sys/class/gpio/gpio20/value",
+      "comment": "Window 2 - Dining Room",
+      "status": "close"
+    }
+  ]
+} 
